@@ -1,0 +1,12 @@
+SOLUÇÃO DISSERTATIVA PARA A TABUADA DO 9:
+
+1) Leia e armazene o número "n", que o usuário deseja que seja multiplicado por 9;
+   #ENTRADA
+2) Execute a operação "n-1" e armazene o resultado como o dígito "a";
+   #PROCESSAMENTO
+3) Execute a operação "10-n" e armazene o resultado como o dígito "b";
+   #PROCESSAMENTO
+4) Execute a operação "a X 10 + b" e armazene o resultado como "R";
+   #PROCESSAMENTO
+5) Apresente "R" (resultado final) e encerre o programa;
+   #SAÍDA

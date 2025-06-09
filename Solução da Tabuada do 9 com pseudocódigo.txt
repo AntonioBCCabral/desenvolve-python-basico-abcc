@@ -1,0 +1,9 @@
+SOLUÇÃO COM PSEUDOCÓDIGO:
+
+1. Início;
+2. Leia o número "n";
+3. Obtenha o número "a", sendo: a = n-1;
+4. Obtenha o número "b", sendo: b = 10-n;
+5. Obtenha o número "R", sendo: R = a X 10 + b;
+6. Imprima "R";
+7. Fim;
