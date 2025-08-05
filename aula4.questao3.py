@@ -1,0 +1,10 @@
+# Calculando o valor total de uma compra online.
+preço_produto1 = float(input("\033[3mDigite o preço do produto 1:\033[0m \033[1m R$ \033[1m\n"))
+quantidade_produto1 = int(input("\033[3mDigite a quantidade do produto 1:\033[0m \033[1m\n"))
+preço_produto2 = float(input("\033[3mDigite o preço do produto 2:\033[0m \033[1m R$ \033[1m\n"))
+quantidade_produto2 = int(input("\033[3mDigite a quantidade do produto 2:\033[0m \033[1m\n"))
+preço_produto3 = float(input("\033[3mDigite o preço do produto 3:\033[0m \033[1m R$ \033[1m\n"))
+quantidade_produto3 = int(input("\033[3mDigite a quantidade do produto 3:\033[0m \033[1m\n"))
+total_compra = (preço_produto1 * quantidade_produto1) + (preço_produto2 * quantidade_produto2) + (preço_produto3 * quantidade_produto3)
+print("\033[3mO valor total da compra é:\033[0m \033[1m R$ {:.2f} \033[0m".format(total_compra))
+print("\033[3mObrigado por comprar conosco!\033[0m")
