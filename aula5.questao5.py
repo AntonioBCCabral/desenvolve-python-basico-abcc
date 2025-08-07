@@ -7,11 +7,11 @@ if (sexo == "M" and idade >= 65 or sexo == "M" and tempo_contribuicao >= 30 or i
     print((sexo == "M" and idade >= 65) or (sexo == "M" and tempo_contribuicao >= 30) or (idade >= 60 and tempo_contribuicao >= 25))
     print("Você está apto a se aposentar!")
 elif (sexo == "F" and idade >= 60 or sexo == "F" and tempo_contribuicao >= 30 or idade >= 60 and tempo_contribuicao >= 25):
-    print((sexo == "F" and idade >= 60) or (sexo == "F" and tempo_contribuicao >= 30) or 
-          (idade >= 55 and tempo_contribuicao >= 25))
+    print((sexo == "F" and idade >= 60) or (sexo == "F" and tempo_contribuicao >= 30) or \
+         (idade >= 60 and tempo_contribuicao >= 25))
     print("Você está apto a se aposentar!")
 
 else:
-    print((sexo == "M" and idade >= 65) or (sexo == "M" and tempo_contribuicao >= 30) or (idade >= 60 and tempo_contribuicao >= 25) or 
-          (sexo == "F" and idade >= 60) or (sexo == "F" and tempo_contribuicao >= 30) or (idade >= 55 and tempo_contribuicao >= 25))
+    print((sexo == "M" and idade >= 65) or (sexo == "M" and tempo_contribuicao >= 30) or (idade >= 60 and tempo_contribuicao >= 25) or \
+          (sexo == "F" and idade >= 60) or (sexo == "F" and tempo_contribuicao >= 30) or (idade >= 60 and tempo_contribuicao >= 25))
     print("Você \033[1mNÃO\033[0m está apto a se aposentar.")
