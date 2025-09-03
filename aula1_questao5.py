@@ -1,0 +1,37 @@
+#Simular um sistema de mensagens instantâneas, com uso de emojis.
+import emoji
+mensagem = emoji.emojize("Olá, :grinning_face_with_big_eyes:!", language='alias')
+print(mensagem)
+mensagem = emoji.emojize("Tudo bem? :thumbs_up:", language='alias')
+print(mensagem)
+print("Bem-vindo ao nosso bate-papo. Você pode usar os emojis disponibilizados abaixo, bastando digitar " \
+"os seus respectivos nomes.")
+
+#Lista de emojis disponíveis e seus respectivos nomes.
+print(emoji.emojize(":grinning_face_with_big_eyes:", language='alias'), end=" ")
+print(emoji.demojize(" -> :grinning_face_with_big_eyes:"))
+print(emoji.emojize(":thumbs_up:", language='alias'), end=" ")
+print(emoji.demojize(" -> :thumbs_up:"))
+print(emoji.emojize(":enraged_face:", language='alias'), end=" ")
+print(emoji.demojize(" -> :enraged_face:"))
+print(emoji.emojize(":smiling_face_with_tear:", language='alias'), end=" ")
+print(emoji.demojize(" -> :smiling_face_with_tear:"))
+print(emoji.emojize(":man_shrugging:", language='alias'), end=" ")
+print(emoji.demojize(" -> :man_shrugging:"))
+print(emoji.emojize(":woman_shrugging:", language='alias'), end=" ")
+print(emoji.demojize(" -> :woman_shrugging:"))
+print(emoji.emojize(":man_walking:", language='alias'), end=" ")
+print(emoji.demojize(" -> :man_walking:"))
+print(emoji.emojize(":woman_walking:", language='alias'), end=" ")
+print(emoji.demojize(" -> :woman_walking:"))
+print(emoji.emojize(":red_heart:", language='alias'), end=" ")
+print(emoji.demojize(" -> :red_heart:"))
+print(emoji.emojize(":woman_dancing:", language='alias'), end=" ")
+print(emoji.demojize(" -> :woman_dancing:"))
+print(emoji.emojize(":man_dancing:", language='alias'), end=" ")
+print(emoji.demojize(" -> :man_dancing:"))
+
+print("Digite uma frase acompanhada do nome do emoji e ela será automaticamente emojizada")
+frase = input("Digite sua frase: ")
+frase_emojizada = emoji.emojize(frase, language='alias')
+print(frase_emojizada)
