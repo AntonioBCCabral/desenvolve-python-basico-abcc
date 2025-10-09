@@ -5,7 +5,7 @@ import random
 with open("spotify-2023.csv", "r", encoding="latin-1") as arquivo:
     linhas = arquivo.readlines()
 # Abrir o arquivo para leitura só até a linha 10
-    dados = [linha.strip().split(",") for linha in linhas[0:5:]]
+    dados = [linha.strip().split(",") for linha in linhas[0:11:]]
     print(dados)
 # Filtrar as 10 músicas mais tocadas entre 2012 e 2022
 # Apenas track_name, artist_name, artist_count, release_date, streams
