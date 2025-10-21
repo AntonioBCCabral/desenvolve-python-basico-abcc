@@ -1,0 +1,83 @@
+Introdução
+A empresa modelada será a TechStore, uma loja especializada em produtos de informática e serviços de manutenção. O sistema será utilizado por quatro tipos de usuários:
+
+Gerente: acesso total ao sistema (CRUD completo)
+
+Funcionário: acesso a leitura e atualização de produtos/serviços
+
+Estagiário: acesso apenas à leitura
+
+Cliente: acesso à leitura de produtos/serviços
+
+A TechStore oferece:
+
+Produtos: notebooks, mouses, teclados, monitores, etc.
+
+Serviços: manutenção de computadores, instalação de software, limpeza interna, etc.
+
+Implementação: Usuários
+1. Estrutura de dados
+Utilizaremos um dicionário para armazenar os usuários, onde a chave será o username e o valor será uma tupla com senha e nível de permissão.
+
+2. Estrutura do arquivo
+Arquivo usuarios.csv com o seguinte formato:
+
+3. Funcionalidades (CRUD)
+Letra	Funcionalidade
+C - Create	Adicionar novo usuário ao sistema
+R - Read	Listar todos os usuários ou buscar por nome
+U - Update	Alterar senha ou permissão de um usuário
+D - Delete	Remover usuário do sistema
+
+Implementação: Produtos e Serviços
+1. Estrutura de dados
+Utilizaremos uma lista de dicionários para armazenar os produtos e serviços:
+
+2. Estrutura do arquivo
+Arquivo produtos.csv:
+
+Arquivo servicos.csv:
+
+3. Funcionalidades (CRUD + extras)
+Letra	Funcionalidade
+C - Create	Adicionar novo produto ou serviço
+R - Read	Listar todos os registros
+U - Update	Editar preço ou quantidade
+D - Delete	Remover produto ou serviço
+Extra	Buscar por nome ou código
+Extra	Imprimir ordenado por nome
+Extra	Imprimir ordenado por preço
+
+Conceitos obrigatórios utilizados
+Condicionais: verificação de permissões e validações
+
+Repetições: menus e loops de interação
+
+Funções: modularização das operações CRUD
+
+Strings: manipulação de nomes, códigos, permissões
+
+Estruturas de dados: listas, tuplas, sets, dicionários
+
+Gerência de arquivos: leitura e escrita em .csv
+
+Conclusão
+Durante o desenvolvimento, os principais desafios foram:
+
+Garantir a separação de permissões por tipo de usuário
+
+Organizar os dados de forma eficiente para leitura e escrita
+
+Implementar ordenações e buscas com clareza
+
+Escolhas bem-sucedidas:
+
+Uso de arquivos .csv pela simplicidade e compatibilidade
+
+Estrutura de dados flexível com listas e dicionários
+
+O que faria diferente:
+
+Dividir o código em múltiplos arquivos para melhor organização
+
+Implementar autenticação com hash de senha para maior segurança

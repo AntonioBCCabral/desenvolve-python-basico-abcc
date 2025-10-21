@@ -1,0 +1,13 @@
+codigo,nome,preco,quantidade
+
+ABC001,Notebook,3500.00,30
+ABC002,Smartphone,2500.00,50
+ABC003,Tablet,1500.00,20
+ABC004,Monitor,800.00,15
+ABC005,Teclado,150.00,100
+ABC006,Mouse,100.00,120
+ABC007,Impressora,600.00,10
+ABC008,Roteador,200.00,40
+ABC009,Webcam,300.00,25
+ABC010,Headset,250.00,35
+ABC011,Pen-Drive,45.00,45
